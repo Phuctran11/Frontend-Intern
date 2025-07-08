@@ -1,0 +1,20 @@
+{
+  "name": "frontendpr",
+  "version": "1.0.0",
+  "description": "Sun Asterisk Homepage",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev": "live-server public"
+  },
+  "keywords": [],
+  "author": "phuctcb",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
