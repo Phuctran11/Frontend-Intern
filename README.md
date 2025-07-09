@@ -11,6 +11,18 @@ The other terminal to live server: `npm run start:dev`
 
 # DEMO
 1. Menu
-![alt text](image.png)
+![menu img](image.png)
 2. Business Field
-![alt text](image-1.png)
+![business field img](image-1.png)
+3. Banner
+![banner img](image-2.png)
+4. Our Products
+![product img](image-3.png)
+5. Bussiness Chances
+![business chances img](image-4.png)
+6. Business Environment
+![business env img](image-5.png)
+7. Cultures - Events
+![culture-event img](image-6.png)
+8. Footer 
+![footer img](image-7.png)
