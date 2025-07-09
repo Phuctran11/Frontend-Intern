@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+  .topmenu-expanded {
+    @apply absolute top-full left-0 w-full flex flex-col bg-white z-50 shadow-md lg:static lg:flex-row lg:justify-center lg:space-x-8 lg:shadow-none;
+  }
+
+}
+
+
+.haru--pointer-overline .haru-item {
+    position: relative;
+    display: inline-block;
+    color: #433246; 
+}
+
+.haru--pointer-overline .haru-item::before {
+    content: '';
+    position: absolute;
+    top: -20px; 
+    left: 50%;
+    transform: translateX(-50%) scaleX(0);
+    width: 80%;
+    height: 6px;
+    background-color: #c01111; 
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    z-index: 1;
+}
+
+.haru--pointer-overline .haru-item:hover::before {
+    transform: translateX(-50%) scaleX(1);
+}
+
