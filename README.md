@@ -26,3 +26,6 @@ The other terminal to live server: `npm run start:dev`
 ![culture-event img](image-6.png)
 8. Footer 
 ![footer img](image-7.png)
+
+# VIDEO
+GG Drive: [Frontend Demo](https://drive.google.com/file/d/1U4nTs5eDE77jwewTk5TTRyi7YK33Pc46/view?usp=sharing)
