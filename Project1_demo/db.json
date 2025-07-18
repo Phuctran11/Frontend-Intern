@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Điện Thoại iPhone 12",
+      "price": 15990000,
+      "category": "Điện Thoại",
+      "description": "Điện thoại thông minh cao cấp từ Apple",
+      "image": "https://example.com/iphone12.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Laptop MacBook Air M2",
+      "price": 28990000,
+      "category": "Laptop",
+      "description": "Máy tính xách tay mỏng nhẹ hiệu năng cao",
+      "image": "https://example.com/macbook-air.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "5b58",
+      "items": [
+        {
+          "quantity": 1
+        }
+      ],
+      "total": null,
+      "date": "2025-07-15T04:41:18.450Z",
+      "status": "Đang xử lý"
+    },
+    {
+      "id": "b8a7",
+      "items": [
+        {
+          "quantity": "2"
+        }
+      ],
+      "total": null,
+      "date": "2025-07-15T04:41:30.585Z",
+      "status": "Đang xử lý"
+    }
+  ]
+}
